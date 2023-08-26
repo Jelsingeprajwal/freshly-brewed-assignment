@@ -3,9 +3,9 @@ import Play from "../assets/play.svg";
 import Trash from "../assets/Trash.svg";
 const PlaybackCard = () => {
   return (
-    <div className="rounded-[10px] border border-[#A5A5A5] py-6 pl-2 pr-8 flex gap-5 ">
+    <div className="rounded-[10px] border border-[#A5A5A5] p-2 md:py-6 md:pl-2 md:pr-8 flex md:flex-row flex-col gap-5 ">
       <div
-        className="w-[182px] h-[94px] bg-black cursor-pointer
+        className="md:w-[182px]  h-[94px] bg-black cursor-pointer
       relative text-white rounded-xl flex justify-center items-center"
       >
         <img src={Play} alt="Play" />

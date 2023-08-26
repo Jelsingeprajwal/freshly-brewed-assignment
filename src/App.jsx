@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <section className="flex font-poppins">
+    <section className="flex font-poppins ">
       <Sidebar />
       <MainSection />
     </section>

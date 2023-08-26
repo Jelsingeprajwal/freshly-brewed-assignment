@@ -6,8 +6,8 @@ const Schedule2 = () => {
       <p className="text-4xl">
         Your interview session has been booked with LeanPrep!{" "}
       </p>
-      <div className="flex gap-14 mt-10 text-[#616161]">
-        <div className=" w-[599px]">
+      <div className="flex flex-col-reverse lg:flex-row  gap-14 mt-10 text-[#616161]">
+        <div className=" lg:w-[599px]">
           <div className="">
             <h1 className="underline">Details</h1>
             <p>
@@ -18,9 +18,9 @@ const Schedule2 = () => {
           <div className="mt-[56px]">
             <p>
               Meeting Link - <br />
-              <a href="">
+              <a href="" className="text-blue-400 underline">
                 {" "}
-                http://auigfuahfoaofhiafalkjfjkaffjkdalffkjajfa;lfadkjfdlkdalfjafja
+                http://auigfuahfoaofhiafalkjfjkaffjk
               </a>
             </p>
           </div>
@@ -37,7 +37,7 @@ const Schedule2 = () => {
             Good luck!
           </p>
         </div>
-        <div className="w-[360px] text-xl px-4 pt-1 pb-4 border border-[#616161] ">
+        <div className="lg:w-[360px] text-xl px-4 pt-1 pb-4 border border-[#616161] ">
           <h1 className="underline">Instructions</h1>
           <ul className="list-inside list-disc">
             <li>

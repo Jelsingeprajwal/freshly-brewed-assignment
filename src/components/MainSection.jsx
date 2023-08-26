@@ -14,6 +14,8 @@ const MainSection = () => {
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/playback" element={<Playback />} />
         <Route path="/scheduled" element={<Schedule2 />} />
+        <Route path="/preparation" element={<h1>Preperation</h1>} />
+        <Route path="/account" element={<h1>account</h1>} />
       </Routes>
     </section>
   );

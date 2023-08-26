@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../index.css";
+import Close from "../assets/x-solid.svg";
+
 const Sidebar = () => {
+  const handleSidebar = () => {
+    document.getElementById("sidebar").classList.toggle("hidden");
+  };
   return (
-    <section className=" w-[240px] px-3    flex-col items-center border-r-2 min-h-[100vh] border-gray-300  shadow-lg">
+    <section
+      id="sidebar"
+      className=" w-[240px] px-3  absolute lg:static lg:block hidden bg-white  flex-col items-center border-r-2 min-h-[100vh] border-gray-300  shadow-lg z-50"
+    >
       <div className="font-semibold text-[32px] text-center ">
         <span>Leap</span>
         <span className="text-primaryBlue">Prep</span>
@@ -40,6 +48,12 @@ const Sidebar = () => {
           Account
         </NavLink>
       </div>
+      <button
+        onClick={handleSidebar}
+        className="absolute top-4 -right-7 w-6 h-6  border border-black bg-white p-1 lg:hidden"
+      >
+        <img src={Close} alt="" />
+      </button>
     </section>
   );
 };

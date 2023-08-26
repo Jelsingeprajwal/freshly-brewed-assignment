@@ -40,7 +40,7 @@ const Schedule = () => {
               <span>Afternoon</span>
               <span className="text-black">6 slots</span>
             </div>
-            <div className="flex gap-5 mt-5 flex-wrap w-[450px] ">
+            <div className="flex gap-5 mt-5 flex-wrap lg:w-[450px] ">
               <Button value={"12:30 PM"} />
               <Button value={"12:45 PM"} />
               <Button value={"11:45 AM"} />
@@ -69,7 +69,7 @@ const Schedule = () => {
           </h1>
           <Link
             to={"/scheduled"}
-            className="w-[464px] text-xl flex justify-center items-center mb-10 h-9 bg-primaryBlue text-white rounded-lg"
+            className="lg:w-[464px] text-xl flex justify-center items-center mb-10 h-9 bg-primaryBlue text-white rounded-lg"
           >
             Confirm
           </Link>
