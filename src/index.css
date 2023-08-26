@@ -11,6 +11,18 @@ body {
     box-sizing: border-box;
 }
 
+.u-btn::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    display: block;
+}
+
 .active {
     background-color: #000;
     color: white;

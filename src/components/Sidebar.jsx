@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../index.css";
 const Sidebar = () => {
   return (
-    <section className=" w-[240px] px-3  flex-col items-center border-r-2 border-gray-300 h-[100vh] shadow-lg">
+    <section className=" w-[240px] px-3 fixed  flex-col items-center border-r-2 border-gray-300 h-[100vh] shadow-lg">
       <div className="font-semibold text-[32px] text-center ">
         <span>Leap</span>
         <span className="text-primaryBlue">Prep</span>

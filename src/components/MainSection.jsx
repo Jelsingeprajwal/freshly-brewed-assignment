@@ -7,7 +7,7 @@ import Schedule2 from "../pages/Schedule2";
 import Header from "./Header";
 const MainSection = () => {
   return (
-    <section className="w-full">
+    <section className="w-full ml-[240px] z-10">
       <Header />
       <Routes>
         <Route path="/" element={<Dashboard />} />

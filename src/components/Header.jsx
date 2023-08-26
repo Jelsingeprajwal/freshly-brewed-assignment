@@ -1,9 +1,9 @@
 import React from "react";
-import "./Header.css";
+import "../index.css";
 import Bell from "../assets/bell.svg";
 const Header = () => {
   return (
-    <header className="h-16 flex justify-end items-center gap-9 shadow-lg border-b-2 border-gray-300">
+    <header className="h-16 p-1 flex justify-end items-center gap-9 shadow-lg border-b-2 border-gray-300">
       <div className="cursor-pointer">
         <img src={Bell} alt="Bell" />
       </div>
